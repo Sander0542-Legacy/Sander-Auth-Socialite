@@ -23,11 +23,11 @@ Socialite::with('sander-auth')->redirect();
 "repositories": [
   {
     "type": "vcs",
-    "url":  "git@github.com:sander0542/sanderauthsocialite.git"
+    "url":  "git@github.com:sander0542/sander-auth-socialite.git"
   }
 ]
 ```
-2. Add the repository to composer: `composer require sander0542/sanderauthsocialite`
+2. Add the repository to composer: `composer require sander0542/sander-auth-socialite`
 3. Add the `SocialiteWasCalled` to `app/Providers/EventServiceProvider.php`
 ```PHP
 protected $listen = [
