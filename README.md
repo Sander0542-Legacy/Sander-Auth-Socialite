@@ -34,7 +34,7 @@ protected $listen = [
   // a whole bunch of listeners
   \SocialiteProviders\Manager\SocialiteWasCalled::class => [
     // add your listeners (aka providers) here
-    'SocialiteProviders\\Kodular\\SanderAuthExtendSocialite@handle',
+    'SocialiteProviders\\SanderAuth\\SanderAuthExtendSocialite@handle',
   ],
 ];
 ```
